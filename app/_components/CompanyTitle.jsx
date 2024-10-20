@@ -43,7 +43,7 @@ const CompanyTitle = (props) => {
       >
         <Text3D
           ref={textRef}
-          position={[-2.2, -0.2, 1]}
+          position={[-2.5, -0.2, 1]}
           font={"fonts/2.json"}
           height={0.2}
           size={0.75}
@@ -54,7 +54,7 @@ const CompanyTitle = (props) => {
           bevelOffset={0}
           bevelSegments={8}
         >
-          TYCHON
+          TAYCHON
           <meshStandardMaterial
             color={"white"} // Base color
             metalness={0.5}
